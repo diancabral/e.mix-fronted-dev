@@ -1,0 +1,21 @@
+@mixin font-sizer($size, $important: ''){
+
+	$px  : $size;
+	$rem : $size / 10;
+
+	font-size: #{$px}px #{$important};
+	font-size: #{$rem}rem #{$important};
+
+}
+
+@mixin hardware($backface: true, $perspective: 1000){
+
+	@if $backface {
+
+		backface-visibility: hidden;
+
+	}
+
+	perspective: $perspective;
+
+}

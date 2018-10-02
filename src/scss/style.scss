@@ -1,0 +1,25 @@
+@import 'variables';
+
+@import 'node_modules/bootstrap/scss/bootstrap-reboot';
+@import 'node_modules/bootstrap/scss/bootstrap-grid';
+@import 'node_modules/material-colors/dist/colors.scss';
+
+@import 'mixins';
+
+/* */
+
+html {
+
+    font-size: 10px;
+
+}
+
+body {
+
+    width: 100%;
+
+    user-select: none;
+
+    overflow-y: scroll;
+
+}
